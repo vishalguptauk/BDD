@@ -1,0 +1,20 @@
+<arquillian
+        xmlns="http://jboss.com/arquillian"
+>
+
+    <extension qualifier="webdriver">
+        <property name="browser">phantomjs</property>
+    </extension>
+
+    <!--
+    use the following for a local setup with a running firefox
+    -->
+    <!--
+    <extension qualifier="webdriver">
+        <property name="remoteReusable">true</property>
+        <property name="remoteAddress">http://localhost:4444/wd/hub/</property>
+        <property name="browser">firefox</property>
+    </extension>
+    -->
+
+</arquillian>
